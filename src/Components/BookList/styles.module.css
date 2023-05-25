@@ -1,0 +1,30 @@
+ul {
+    list-style: none;
+}
+
+.list_item {
+    display: flex;
+    margin: 15px auto;
+}
+
+.list_item_cover {
+    width: 120px;
+    margin-right: 30px;
+    flex-shrink: 0;
+}
+
+.list_item_cover img {
+    max-width: 100%;
+}
+
+.list_item_details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    align-items: flex-start;
+}
+
+h4 {
+    cursor: pointer;
+}
