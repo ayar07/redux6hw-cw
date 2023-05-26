@@ -1,18 +1,21 @@
-import { Header, BookList } from "../Components"
-import classes from "./styles.module.css"
- 
+import { useSelector } from "react-redux";
+import { Booklist, CartItems, Header } from "../Components";
+import classes from "./styles.module.css";
 
 const MainPage = () => {
+  const { isOpen } = useSelector((state) => state.cartReducer)
   return (
     <>
       <header className={classes.header}>
         <Header />
       </header>
       <main className="container">
-        <BookList />
+        <Booklist />
       </main>
-    </>
-  )
-}
 
-export default MainPage
+     {isOpen && <CartItems />} 
+    </>
+  );
+};
+
+export default MainPage;

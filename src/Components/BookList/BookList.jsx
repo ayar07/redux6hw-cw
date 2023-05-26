@@ -15,7 +15,7 @@ const BookList = () => {
 
     console.log(books, booksIsError, booksIsLoading);
 
-    if (booksIsError) {
+    if (!Array.isArray(booksIsError)) {
         return <div> {<BookError />}</div>
     }
 

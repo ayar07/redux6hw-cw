@@ -13,6 +13,14 @@
   margin-top: 440px;
 }
 
+.mmm{
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  
+  text-align: center;
+}
+
 @keyframes rotate {
   from {
     transform: rotate(0deg);

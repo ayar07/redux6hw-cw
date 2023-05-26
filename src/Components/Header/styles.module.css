@@ -1,15 +1,16 @@
-.logo{
-    color: white;
+.logo {
+    color: #fff;
     font-size: 30px;
-}
-.logo a{
-    color: white;
+  }
+  
+  .cart a {
+    color: #fff;
     text-decoration: none;
-}
-
-.cart{
+  }
+  
+  .cart {
     cursor: pointer;
     position: relative;
-    color: white;
+    color: #fff;
     font-size: 30px;
-}
+  }

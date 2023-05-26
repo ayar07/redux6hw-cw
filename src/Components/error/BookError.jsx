@@ -14,7 +14,10 @@ const BookError = () => {
     // });
 
     return (
-        <div class={cont.box}>Error</div>
+        <>
+            <div className={cont.box}>Error</div>
+            <h1 className={cont.mmm}>сваливай отсюда <br /> 404</h1>
+        </>
     )
 }
 

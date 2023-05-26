@@ -29,6 +29,27 @@
       "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Sea-wolf_cover.jpg"
     }
   ],
-  "cartItems": [],
+  "cartItems": [
+    [
+      {
+        "id": 2,
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "count": 1,
+        "total": 52
+      },
+      {
+        "id": 3,
+        "title": "All Good Perople Here: A Novel",
+        "count": 1,
+        "total": 52
+      },
+      {
+        "id": 1,
+        "title": "Proudction-Readi Microservices",
+        "count": 3,
+        "total": 92
+      }
+    ]
+  ],
   "users": []
 }

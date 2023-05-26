@@ -1,5 +1,6 @@
 import App from "./App/App";
-import BookList from "./BookList/BookList";
-import Header from "./Header/Header";
+import Booklist from "../Components/BookList/BookList"
+import CartItems from "../Components/Cart/CartItems";
+import Header from "../Components/Header/Header";
 
-export { App, BookList, Header }
+export { App, Booklist, CartItems, Header };
